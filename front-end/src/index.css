@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+body, html {
+    font-family: 'Unbounded', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+    
+}
+
+.login-container h2 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 3%;
+    
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 3%;
+    width: 50%;
+    border: 0.5vh solid green;
+    border-radius: 2vh;
+    background-color: azure;    
+}
+
+.login-create-btn {
+    align-self: center;
+}
+
+
+video {
+    width: 40%;
+    height: 100%;
+    border-radius:80%;
+    margin-top: 3%;
+    object-fit:inherit;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+
+}
+ .main-items {
+    width: 100%;
+ }
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.nav-item1 {
+    position: relative;
+    right: 8%;
+}
+
+.nav-item2 {
+position:relative;
+right:13%;
+
+}
+
+.nav-item3 {
+    position: relative;
+    right:5%;
+}
+
+.display-container {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.profile-item1 {
+    align-self: center;
+    margin-top: 5%;
+
+}
+
+.profile-item2 {
+    align-self: center;
+    border: 5px solid green;
+    border-radius: 10%;
+    padding: 3%;
+}
+
+.add-expense {
+    position:inherit;
+    margin-left: 48%;
+}
+
+.search {
+    position: inherit;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.table-container {
+    position:static;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.account-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-item1 {
+    margin:auto;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.account-item2 {
+    margin: auto;
+    width: 50%;
+    padding-top: 5%;
+}
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+
+.demo-loadmore-list {
+    margin-top: 5%;
+}
+
+.budget-card h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
